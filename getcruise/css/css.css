@@ -1,22 +1,70 @@
 .header{
-    background-color:#333;
-	color:#f4f4f4;
+    background-color: rgba(0, 6, 88, 0.521);
+    color:#f4f4f4;
+    text-align: center;
 
-	border: 5px;
-	border-width: 20px;
-	border-bottom-width:50px;
-    padding: 10px;
 
+    padding: 5px;
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
+    z-index: 1;
 
 
 }
 
-.sticky{
-    position: fixed;
+.first-page{
+    background-color: rgba(0, 6, 88, 0.521);
+    color: white;
+    text-align: center;
+
+    padding: 20%;
+
+    box-sizing: border-box;
+
+    position: relative;
+    left: 0;
     top: 0;
     width: 100%;
+
+}
+
+.second-page{
+    background-color: white;
+    color: black;
+    text-align: left;
+    right: 50px;
+    font-size: 150%;
+    
+    padding: 10%;
+
+    box-sizing: border-box;
+
+    position: relative;
+    width: 100%;
+}
+
+.button{
+    background-color: orange;
+    color: blue;
+    padding: 14px 40px;
+    border:none;
+}
+
+div.relative {
+    position: relative;
+    left: 0;
+  }
+
+.second-page p{
+  padding-bottom:1em;
+	border-bottom: dotted 1px #333;
+    list-style-image: url('../images/tech.jpg');
+}
+
+.second-page li{
+	padding-bottom:1em;
+	border-bottom: dotted 1px #333;
+    list-style-image: url('../images/chek.png');
 }
