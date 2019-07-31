@@ -1,0 +1,108 @@
+.header{
+
+}
+
+.heading-1{
+    color:  rgb(250, 106, 39);
+}
+
+.heading-center{
+    text-align: center;
+    color:  rgb(250, 106, 39);
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 5%;
+    
+    
+}
+
+.heading-undercenter{
+    text-align: center;
+    color: grey;
+}
+
+.first-page{
+    background-color: rgba(0, 6, 88, 0.521);
+    color: white;
+    text-align: center;
+
+    padding: 20%;
+
+    box-sizing: border-box;
+
+    position: relative;
+    margin-left: 0;
+    width: 100%;
+
+}
+
+.button{
+    background-color: orange;
+    color: black;
+    padding: 14px 40px;
+    border:none;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font: arial;
+    font-size: 100%;
+}
+
+.parent{
+    display: flex;
+    background-color: rgba(0, 6, 88, 0.521);
+
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.general-parent{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.general-child{
+    font-size: 130%;
+    padding: 4% 9% 9% 9%;
+
+}
+
+.general-child-2{
+    font-size: 130%;
+    padding: 3%;
+    background-color:  white;
+
+
+}
+
+.heading-center h2{
+    text-decoration: underline;
+}
+
+.child{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px
+}
+.middle-child{
+    text-align: center;
+    margin: 20px 20px 20px 22%;
+    font-size: 20px
+}
+
+
+.grey{
+    background-color:  rgba(193, 220, 255, 0.233);
+    padding-bottom: 30%;
+}

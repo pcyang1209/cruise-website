@@ -68,3 +68,23 @@ div.relative {
 	border-bottom: dotted 1px #333;
     list-style-image: url('../images/chek.png');
 }
+
+.right{
+    float: right;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
